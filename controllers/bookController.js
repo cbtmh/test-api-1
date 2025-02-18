@@ -1,6 +1,5 @@
 const { Book, Author } = require('../models/model');
 
-
 const bookController = {
     //add a book
     addBook: async (req, res) => {
@@ -56,4 +55,5 @@ const bookController = {
         }
 }
 }
+//
 module.exports = bookController;
